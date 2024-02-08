@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ros_ws/guide_dog_v0.1/devel
+
+Name: robo_vision
+Description: Description of robo_vision
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

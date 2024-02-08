@@ -1,0 +1,2 @@
+pos_pub:robo_vision:xbox_input_pub
+-DCATKIN_WHITELIST_PACKAGES=xbox_input_pub -DPYTHON_EXECUTABLE=/home/nvidia/mambaforge/bin/python -DCATKIN_DEVEL_PREFIX=/home/nvidia/ros_ws/guide_dog_v0.1/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/ros_ws/guide_dog_v0.1/install -G Unix Makefiles

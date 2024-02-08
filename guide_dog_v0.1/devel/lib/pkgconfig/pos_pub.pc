@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ros_ws/guide_dog_v0.1/devel
+
+Name: pos_pub
+Description: Description of pos_pub
+Version: 0.0.0
+Cflags: -I/home/nvidia/ros_ws/guide_dog_v0.1/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime rospy std_msgs

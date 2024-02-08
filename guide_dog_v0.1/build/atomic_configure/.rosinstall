@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/ros_ws/guide_dog_v0.1/devel/setup.sh

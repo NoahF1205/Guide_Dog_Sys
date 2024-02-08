@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nvidia/ros_ws/guide_dog_v0.1/devel/include/**",
+        "/home/nvidia/ros_ws/realsense_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/nvidia/ros_ws/guide_dog_v0.1/src/pos_pub/include/**",
+        "/home/nvidia/ros_ws/realsense_ws/src/realsense-ros-2.3.2/realsense2_camera/include/**",
+        "/home/nvidia/ros_ws/realsense_ws/src/realsense_odometry/include/**",
+        "/home/nvidia/ros_ws/guide_dog_v0.1/src/robo_vision/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

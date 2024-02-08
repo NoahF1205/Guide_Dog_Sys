@@ -1,0 +1,9 @@
+<launch>
+    <!-- 启动各信息发布节点 -->
+    <!-- 启动robot坐标系下人体坐标发布节点 -->
+    <node pkg="pos_pub" type="pub_camera_to_robo.py" name="robo_to_camera_publisher" output="screen" />
+    <!-- 启动camera to robot静态坐标变换节点和坐标转换发布节点 -->
+    <node pkg="pos_pub" type="pub_people_pos.py" name="people_pose_publisher" output="screen" />
+    <!-- 启动xbox手柄控制服务及其输入坐标发布节点-->
+    <!-- <node pkg="xbox_input_pub" type="pub_robo_input.py" name="xobox_to_jetson_publisher" output="screen" /> -->
+</launch>
